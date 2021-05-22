@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   # Replace `PROJECT_ID` with your project
-  project = "terraform-cloudrun-integration"
+  project = "ndjokka"
 }
 
 resource "google_project_service" "run_api" {
